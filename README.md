@@ -7,17 +7,21 @@ jv - notes
 
 # Development environment on Windows 7 with Emacs, ESS, Git
 
-*Download emacs 24 with Vincent Goulet compilation as a development environment from vgoulet.act.ulaval.ca/en/emacs/windows/
+*Download emacs 24 with Vincent Goulet compilation as a development environment from
+[Vicent Home](http://vgoulet.act.ulaval.ca/en/emacs/windows/)
+
 *Download Git
+
 *Create GitHub
+
 *Test using Git shell
+
 *Configure Emacs
-...
-(setq gitW7 "D:/dev/Git/bin/sh.exe --login -i")
-(setq explicit-shell-file-name "D:/dev/Git/bin/sh.exe")
-(setq shell-file-name explicit-shell-file-name)
-(add-to-list 'exec-path "D:/dev/Git/bin")
-...
+     (setq gitW7 "D:/dev/Git/bin/sh.exe --login -i")
+     (setq explicit-shell-file-name "D:/dev/Git/bin/sh.exe")
+     (setq shell-file-name explicit-shell-file-name)
+     (add-to-list 'exec-path "D:/dev/Git/bin")
+
 *Install Magit for emacs
 Install using *package*
 
