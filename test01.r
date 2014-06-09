@@ -17,6 +17,8 @@ barplot(xtab, xlab = "Observed")
 
 ## GIT
 ## register - file already registered
-## check in - check out
+## check in - check out - entrar comentari c-c c-c
+## push desde command line - all ok
+
 
 
