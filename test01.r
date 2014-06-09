@@ -15,7 +15,8 @@ barplot(xtab, xlab = "Observed")
 ## http://www.rexamples.com/11/Filtering%20data
 ## http://google-styleguide.googlecode.com/svn/trunk/Rguide.xml
 
-## tst GIT and push
-## coemntaris GIT
+## GIT
+## register - file already registered
+## check in - check out
 
 
