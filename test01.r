@@ -1,7 +1,7 @@
 ## ----------------------------------------------------------------------
 ## Author   : Josep Vela - <jv@actioadfuturum.com>
 ## Subject  : Test R from Emacs
-## Revision : $Id: test01.r, v 1.3 2014/06/09 09:48:S jva $
+## Revision : $Id: test01.r, v 1.4 2014/06/09 09:48:S jva $
 ## ----------------------------------------------------------------------
 
 x <- rpois(200, lambda=10)
@@ -16,5 +16,6 @@ barplot(xtab, xlab = "Observed")
 ## http://google-styleguide.googlecode.com/svn/trunk/Rguide.xml
 
 ## tst GIT and push
+## coemntaris GIT
 
 
