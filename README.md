@@ -20,16 +20,22 @@ jv - notes
 ...
 *Install Magit for emacs
 Install using *package*
-...
-(when (>= emacs-major-version 24)
-  (require 'package)
-  (package-initialize)
-  (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
-  )
-...
-https://www.google.es/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0CDIQFjAB&url=http%3A%2F%2Fwww.masteringemacs.org%2Farticles%2F2013%2F12%2F06%2Fintroduction-magit-emacs-mode-git%2F&ei=eGiVU6GwO6qj0QWsnYGgDA&usg=AFQjCNE1v_30yJbl3SJfesz4lPPljgEbCg&bvm=bv.68445247,d.bGQ
-* Usign magit
-From magit-status
+
+    (when (>= emacs-major-version 24)
+          (require 'package)
+          (package-initialize)
+          (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+          )
+
+
+* Using magit
+  M-x magit-status
+  s - to add file under cursor to stage
+  c - to write a commit message - c-c c-c no finish edit
+  P P - to push
+
+
+
 
 
 
