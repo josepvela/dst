@@ -9,4 +9,8 @@ hist(pressure$pressure)
 
 ## GIT
 # magit-status
+# s - to add file under cursor to stage
+# c - to write a commit message - c-c c-c no finish edit
+# pushing
+# P P
 
