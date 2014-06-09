@@ -10,20 +10,21 @@ jv - notes
 *Download emacs 24 with Vincent Goulet compilation as a development environment from
 [Vicent Home](http://vgoulet.act.ulaval.ca/en/emacs/windows/)
 
-*Download Git
+* Download Git
 
-*Create GitHub
+* Create GitHub
 
-*Test using Git shell
+* Test using Git shell
 
-*Configure Emacs
-     (setq gitW7 "D:/dev/Git/bin/sh.exe --login -i")
-     (setq explicit-shell-file-name "D:/dev/Git/bin/sh.exe")
-     (setq shell-file-name explicit-shell-file-name)
-     (add-to-list 'exec-path "D:/dev/Git/bin")
+* Configure Emacs
 
-*Install Magit for emacs
-Install using *package*
+    (setq gitW7 "D:/dev/Git/bin/sh.exe --login -i")
+    (setq explicit-shell-file-name "D:/dev/Git/bin/sh.exe")
+    (setq shell-file-name explicit-shell-file-name)
+    (add-to-list 'exec-path "D:/dev/Git/bin")
+
+* Install Magit for emacs
+Install using Emacs *package* manager. Configure as follows:
 
     (when (>= emacs-major-version 24)
           (require 'package)
@@ -33,14 +34,11 @@ Install using *package*
 
 
 * Using magit
-  M-x magit-status
-  s - to add file under cursor to stage
-  c - to write a commit message - c-c c-c no finish edit
-  P P - to push
 
-
-
-
+    M-x magit-status
+    s - to add file under cursor to stage
+    c - to write a commit message - c-c c-c no finish edit
+    P P - to push
 
 
 ## header 2
