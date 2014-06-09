@@ -3,11 +3,11 @@ dst
 
 Data Scientist Toolbox Course
 
-jv - notes
+Josep Vela  - auxiliary notes
 
 # Development environment on Windows 7 with Emacs, ESS, Git
 
-*Download emacs 24 with Vincent Goulet compilation as a development environment from
+* Download *Emacs 24* with Vincent Goulet compilation as a development environment from
 [Vicent Home](http://vgoulet.act.ulaval.ca/en/emacs/windows/)
 
 * Download Git
@@ -23,7 +23,7 @@ jv - notes
     (setq shell-file-name explicit-shell-file-name)
     (add-to-list 'exec-path "D:/dev/Git/bin")
 ```
-* Install Magit for emacs
+* Install *Magit* for emacs
 Install using Emacs *package* manager. Configure as follows:
 ```
     (when (>= emacs-major-version 24)
