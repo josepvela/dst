@@ -13,3 +13,5 @@ barplot(xtab, xlab = "Observed")
 ## http://www.stat.cmu.edu/~hseltman/Rclass/R1.R
 ## http://www.rexamples.com/11/Filtering%20data
 ## http://google-styleguide.googlecode.com/svn/trunk/Rguide.xml
+
+## tst GIT and push
